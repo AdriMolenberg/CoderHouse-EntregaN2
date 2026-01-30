@@ -36,12 +36,6 @@ body {
   height: auto; /* mantiene proporciones */
 }
 
-img {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-}
-
 
 /* SECCIONES */
 section { 
@@ -69,7 +63,7 @@ section {
   background-repeat: no-repeat; /* Evita que se repita */
   display: grid; /* Grid */
   grid-template-columns: 1fr;
-  place-items: left;
+  place-items: start;
   padding: 2rem;
 }
 
@@ -100,10 +94,6 @@ section {
   background-color: #222;
   color: #fff;
   padding: 2rem 0;
-}
-
-footer section {
-  float: right;
 }
 
 footer p {
