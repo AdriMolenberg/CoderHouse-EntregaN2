@@ -43,6 +43,18 @@ section {
   margin-bottom: 2rem; 
 } 
 
+/* SECCIÓN BENEFICIOS */
+.benefits-products { 
+  display: flex; /* Flexbox */ 
+  gap: 2rem; 
+  justify-content: space-between; 
+  flex-wrap: wrap; 
+} 
+
+.benefits, .products { 
+  flex: 1; 
+  min-width: 280px; 
+} 
 
 /* CATÁLOGO */
 .catalog {
@@ -50,7 +62,8 @@ section {
   background-size: cover; /* Ajusta la imagen al tamaño de pantalla */
   background-position: center; /* Centra la imagen */
   background-repeat: no-repeat; /* Evita que se repita */
-  display: grid;
+  display: grid; /* Grid */
+  grid-template-columns: 1fr;
   place-items: center;
   padding: 2rem;
 }
