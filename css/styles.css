@@ -1,0 +1,66 @@
+html {
+  font-family: "Montserrat", sans-serif;
+} /*Esto se agrega para que absolutamente todos los hijos esten utilizando también esta fuente*/
+
+body {
+  margin: 0;
+  background-color: #efefef;
+}
+
+header {
+  background: linear-gradient(to bottom, #ffffff, #ff8c00);
+  padding: 3rem 2rem;
+  position: relative;
+  color: white;
+}
+
+header h1 {
+  font-size: 3rem;
+  text-shadow: 1px 1px 3px black; /* mejora legibilidad */
+  text-align: center;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 150px; /* ajusta al tamaño del logo */
+  height: auto; /* mantiene proporciones */
+}
+
+img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.catalog {
+  background-image: url("../img/banner.jpg");
+  background-size: cover; /* Ajusta la imagen al tamaño de pantalla */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que se repita */
+}
+
+footer {
+  background-color: #222;
+  padding: 3rem;
+  color: #fff;
+}
+
+footer section {
+  float: right;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  transition: color 0.3s ease;
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: cornflowerblue;
+}
