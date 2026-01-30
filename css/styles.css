@@ -8,6 +8,11 @@ body {
   background-color: #efefef;
 }
 
+/* NAVBAR */
+.navbar-brand img { 
+  height: 40px; 
+  width: auto; 
+} 
 
 /* HEADER */
 .site-header {
@@ -64,9 +69,30 @@ section {
   background-repeat: no-repeat; /* Evita que se repita */
   display: grid; /* Grid */
   grid-template-columns: 1fr;
-  place-items: center;
+  place-items: left;
   padding: 2rem;
 }
+
+/* CONTACTO */ 
+.about-grid { 
+ display: grid; 
+ grid-template-columns: 1fr 1fr; 
+ gap: 30px; 
+ padding: 40px; 
+} 
+
+.form-flex { 
+ display: flex; 
+ flex-direction: column; 
+ gap: 15px; 
+} 
+
+/* RESPONSIVE */ 
+@media (max-width: 768px) { 
+ .about-grid { 
+   grid-template-columns: 1fr; 
+ } 
+} 
 
 
 /* FOOTER */
@@ -93,3 +119,11 @@ footer p {
 .site-footer a:hover {
   color: cornflowerblue;
 }
+
+.site-footer .container { 
+ display: flex; 
+ justify-content: space-between; 
+ align-items: center; 
+ flex-wrap: wrap; 
+ gap: 1rem; 
+} 
